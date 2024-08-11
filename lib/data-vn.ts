@@ -65,23 +65,23 @@ export const projectsData = [
   {
     title: "Posts & Comments API",
     description:
-      "Uma API RESTful com endpoints para criação, atualização, exclusão e listagem de posts. Também permite a criação e exclusão de comentários nos posts.",
+      "A RESTful API with endpoints for creating, updating, deleting and listing posts. It also allows you to create and delete comments on posts.",
     tags: ["Node.js", "TypeScript", "Express", "MongoDB", "Docker"],
     imageUrl: postsCommentsApi,
-    url: "https://github.com/"
+    url: "https://github.com"
   },
   {
     title: "Taking notes",
     description:
-      "Um aplicativo web para criar documentos. Ele usa um editor semelhante ao Notion e você pode publicar documentos na web.",
+        "A web application for creating documents. It uses a Notion-like editor and you can publish documents to the web..",
     tags: ["React", "Next.js", "Convex", "Tailwind"],
     imageUrl: takingnotesImg,
-    url: "https://takingnotes.vercel.app/"
+    url: "https://github.com"
   },
   {
     title: "E-Commerce Admin",
     description:
-      "O projeto de administrador é capaz de gerenciar categorias, tamanhos, cores e produtos, além de controlar várias lojas e gerar rotas de API separadas para cada uma.",
+        "The admin project is able to manage categories, sizes, colors and products, as well as control multiple stores and generate separate API routes for each.",
     tags: ["React", "Next.js", "Prisma", "Postgres", "Tailwind"],
     imageUrl: ecommerceadminImg,
     url: "https://github.com"
@@ -89,10 +89,10 @@ export const projectsData = [
   {
     title: "PC Build Monitor",
     description:
-      "Um script de web scraping que obtém dados de um site de montagem de PC. Ele usa a API do Google para armazenar o preço de cada parte do PC em uma Planilha do Google.",
+      "A web scraping script that takes data from a PC assembly website. It uses the Google API to store the price of each PC part in a Google Sheet.",
     tags: ["Python", "Beautiful Soup", "Google API", "Scraping"],
     imageUrl: pcbuildmonitorImg,
-    url: "https://github.com/"
+    url: "https://github.com"
   },
 
 ] as const;

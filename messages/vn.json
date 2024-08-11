@@ -21,7 +21,7 @@
   "AboutSection": {
     "heading": "Về tôi",
     "aboutMe": "Gần đây tôi đã tốt nghiệp <medium>Ciência da Computação</medium> com conhecimentos em linguagens de programação, bancos de dados e desenvolvimento web. <underline>Tenho experiência em ambiente de manutenção e suporte</underline>, trabalhando na resolução de bugs de sistema. <underline>Habilidade para resolver problemas e aprender rápido</underline>. Atualmente, tenho estudado e desenvolvido <medium>projetos Full-stack</medium> com diversas tecnologias como <medium>React, Next.js, Typescript e Tailwind</medium>. Estou procurando uma <medium>posição em tempo integral</medium> como desenvolvedor de software.",
-    "hobbies": "<italic>Quando não estou codificando</italic>, gosto de jogar videogames, assistir filmes e ler. Também gosto de <bold>cozinhar</bold>. Atualmente, meus pratos principais são <bold>pizzas e um bom churrasco</bold>. Também gosto de ir à academia para me manter ativo."
+    "hobbies": "<italic>Khi tôi không code</italic>, gosto de jogar videogames, assistir filmes e ler. Também gosto de <bold>cozinhar</bold>. Atualmente, meus pratos principais são <bold>pizzas e um bom churrasco</bold>. Também gosto de ir à academia para me manter ativo."
   },
   "ProjectsSection": {
     "heading": "Những dự án của tôi"

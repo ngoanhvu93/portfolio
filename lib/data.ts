@@ -67,7 +67,7 @@ export const projectsData = [
       "A RESTful API with endpoints for posts creation, update, delete and listing. As well as comments creation and deletion on posts.",
     tags: ["Node.js", "TypeScript", "Express", "MongoDB", "Docker"],
     imageUrl: postsCommentsApi,
-    url: "https://github.com/caiosdeo/posts-comments-api"
+    url: "https://github.com"
   },
   {
     title: "Taking notes",
@@ -75,7 +75,7 @@ export const projectsData = [
       "A public web app for creating documents. It uses a notion-like editor and you can publish documents on the web.",
     tags: ["React", "Next.js", "Convex", "Tailwind"],
     imageUrl: takingnotesImg,
-    url: "https://takingnotes.vercel.app/"
+    url: "https://github.com"
   },
   {
     title: "E-Commerce Admin",
@@ -83,7 +83,7 @@ export const projectsData = [
       "This admin project is capable of managing categories, sizes, colors, and products, as well as controlling multiple stores and generating separate API routes for each.",
     tags: ["React", "Next.js", "Prisma", "Postgres", "Tailwind"],
     imageUrl: ecommerceadminImg,
-    url: "https://github.com/ecommerce-admin"
+    url: "https://github.com"
   },
   {
     title: "PC Build Monitor",
@@ -91,7 +91,7 @@ export const projectsData = [
       "A web scraping script that get data from a pc builder website. It uses Google API to store the price of each pc part in a Google Spreadsheet.",
     tags: ["Python", "Beautiful Soup", "Google API", "Scraping"],
     imageUrl: pcbuildmonitorImg,
-    url: "https://github.com/pc-build-monitor"
+    url: "https://github.com"
   },
 
 ] as const;
