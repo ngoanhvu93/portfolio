@@ -1,10 +1,8 @@
+import "./globals.css";
 import { Inter } from "next/font/google";
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { Toaster } from "react-hot-toast";
-
-import "./globals.css";
-
 import { locales } from '@/config';
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import ThemeContextProvider from "@/context/theme-context";

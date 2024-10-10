@@ -14,7 +14,7 @@
     "submit": "Submit"
   },
   "IntroSection": {
-    "intro": "<bold>Hello, I'm Vu Ngo.</bold> I'm a junior <bold>full-stack developer</bold> with <bold>2 years</bold> of experience. I enjoy building <italic>sites & apps</italic>.",
+    "intro": "<bold>Hello, I'm Vu Ngo.</bold> I'm a <bold>full-stack developer</bold>. I enjoy building <italic>sites & apps</italic>.",
     "contactMeHere": "Contact me here",
     "downloadCV": "Download CV"
   },
