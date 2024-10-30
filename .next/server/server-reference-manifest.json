@@ -1,0 +1,22 @@
+{
+  "node": {
+    "09107212d7dfab050ac05dc8824438e9c1bcce73": {
+      "workers": {
+        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fanhvungo%2Fcode%2Fportfolio%2Factions%2Fsend-email.tsx%22%2C%5B%22%24%24ACTION_0%22%2C%22sendEmail%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[locale]/page": "action-browser"
+      }
+    },
+    "d0f0726ce14ad8556c17ffc11743714fdec23c72": {
+      "workers": {
+        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fanhvungo%2Fcode%2Fportfolio%2Factions%2Fsend-email.tsx%22%2C%5B%22%24%24ACTION_0%22%2C%22sendEmail%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[locale]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "C/DXS5HWfnT4333njkYRgYvI/d/8ci4rlca+nbK6C4k="
+}

@@ -16,6 +16,7 @@ export default function About({
   const { ref } = useSectionInView(locale === 'vn' ? "Về tôi" : "About");
 
   const t = useTranslations('AboutSection');
+  console.log(1111)
 
   return (
     <motion.section
