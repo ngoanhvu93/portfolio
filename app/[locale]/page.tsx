@@ -10,19 +10,37 @@ import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
 
-export default function Home({ params: { locale }}: LocaleProps) {
+export const metadata = {
+  title: 'Portfolio | Vu Ngo',
+  description: 'Professional portfolio showcasing my work as a software developer with experience in web development, mobile apps, and more.',
+  keywords: ['developer', 'portfolio', 'software engineer', 'web development', 'Vu Ngo', 'Ngô Anh Vũ', 'Ngô Anh Vu', 'Anh Vu Ngô', 'Anh Vu Ngô Anh Vũ'],
+};
+
+  export default function Home({ params: { locale }}: LocaleProps) {
 
   unstable_setRequestLocale(locale);
 
   return (
     <main className="flex flex-col items-center px-4">
-      <Intro locale={locale}/>
+      <header>
+        <Intro locale={locale}/>
+      </header>
       <SectionDivider />
-      <About locale={locale}/>
-      <Projects locale={locale}/>
-      <Skills />
-      <Experience locale={locale}/>
-      <Contact locale={locale}/>
+      <section id="about">
+        <About locale={locale}/>
+      </section>
+      <section id="projects">
+        <Projects locale={locale}/>
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="experience">
+        <Experience locale={locale}/>
+      </section>
+      <section id="contact">
+        <Contact locale={locale}/>
+      </section>
     </main>
   );
 }
