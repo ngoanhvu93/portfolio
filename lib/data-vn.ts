@@ -65,7 +65,7 @@ export const projectsData = [
   {
     title: "Posts & Comments API",
     description:
-      "A RESTful API with endpoints for creating, updating, deleting and listing posts. It also allows you to create and delete comments on posts.",
+      "API RESTful với các endpoint để tạo, cập nhật, xóa và liệt kê bài viết. Nó cũng cho phép tạo và xóa bình luận trên các bài viết.",
     tags: ["Node.js", "TypeScript", "Express", "MongoDB", "Docker"],
     imageUrl: postsCommentsApi,
     url: "https://github.com"
@@ -73,7 +73,7 @@ export const projectsData = [
   {
     title: "Taking notes",
     description:
-        "A web application for creating documents. It uses a Notion-like editor and you can publish documents to the web..",
+      "Ứng dụng web để tạo tài liệu. Sử dụng trình soạn thảo giống Notion và bạn có thể xuất bản tài liệu lên web.",
     tags: ["React", "Next.js", "Convex", "Tailwind"],
     imageUrl: takingnotesImg,
     url: "https://github.com"
@@ -81,7 +81,7 @@ export const projectsData = [
   {
     title: "E-Commerce Admin",
     description:
-        "The admin project is able to manage categories, sizes, colors and products, as well as control multiple stores and generate separate API routes for each.",
+      "Dự án quản trị có khả năng quản lý danh mục, kích thước, màu sắc và sản phẩm, đồng thời kiểm soát nhiều cửa hàng và tạo các route API riêng biệt cho từng cửa hàng.",
     tags: ["React", "Next.js", "Prisma", "Postgres", "Tailwind"],
     imageUrl: ecommerceadminImg,
     url: "https://github.com"
@@ -89,10 +89,9 @@ export const projectsData = [
   {
     title: "PC Build Monitor",
     description:
-      "A web scraping script that takes data from a PC assembly website. It uses the Google API to store the price of each PC part in a Google Sheet.",
+      "Script thu thập dữ liệu từ một trang web lắp ráp PC. Sử dụng Google API để lưu trữ giá của từng linh kiện PC trong Google Sheet.",
     tags: ["Python", "Beautiful Soup", "Google API", "Scraping"],
     imageUrl: pcbuildmonitorImg,
     url: "https://github.com"
-  },
-
+  }
 ] as const;
